@@ -8,21 +8,48 @@
     <script src="../../web-iv-portfolio-site/js/vendor/modernizr.js"></script>
   </head>
   <body>
+    <header>
+      <div class="sticky">
+        <nav class="top-bar" data-topbar role="navigation">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="index.html">Shade</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> 
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+          <section class="top-bar-section right">
+            <!-- Left Nav Section --> 
+            <ul class="left">
+              <li><a href="">Work</a></li>
+            </ul>
+            <!-- Right Nav Section --> 
+            <ul class="left">
+              <li class="active"><a href="">About</a></li>
+            </ul>
+            <ul class="left">
+              <li><a href="">Contact</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </header>
     <h1>Hawgs for Dogs</h1>
-    <div class=column large-6 medium-6 small-12>
-    	<img src="../../web-iv-portfolio-site/images/portfolio-hawgs-2015poster.jpg">
+    <div class="column large-6 medium-6 small-12">
+      <img src="../../web-iv-portfolio-site/images/portfolio-hawgs-2015poster.jpg">
     </div>
-    <div>
-    	<h2>Designer Rebrands Local Fundraiser</h2>
-		<p>Hawgs for Dogs is an annual Poker Run that benefits Guide Dogs of America. While the event has grown in popularity every year, organizers wanted to provide a cohesive brand identity for riders. A number of materials have been created for Hawgs for Dogs, from a logo, to promotional posters for the ride, to T-shirts, to business cards.</p>
+    <div class="column large-6 medium-6 small-12">
+      <h2>Designer Rebrands Local Fundraiser</h2>
+      <p>Hawgs for Dogs is an annual Poker Run that benefits Guide Dogs of America. While the event has grown in popularity every year, organizers wanted to provide a cohesive brand identity for riders. A number of materials have been created for Hawgs for Dogs, from a logo, to promotional posters for the ride, to T-shirts, to business cards.</p>
     </div>
-
-<p>The target audience for this design is middle-age bikers, both men and women, many of whom spend a great deal of time and money giving back to the community. The design needed to be  unique to Hawgs for Dogs, yet consistent with Guide Dogs of America’s brand as well.</p>
-<img src="../../web-iv-portfolio-site/images/portfolio-hawgs-facebookcover.png">
-
-    
+    <div class="clearfix"></div>
+    <div class="column">
+      <img src="../../web-iv-portfolio-site/images/portfolio-hawgs-facebookcover.png">
+      <p>The target audience for this design is middle-age bikers, both men and women, many of whom spend a great deal of time and money giving back to the community. The design needed to be  unique to Hawgs for Dogs, yet consistent with Guide Dogs of America’s brand as well.</p>
+    </div>
     <script src="../../web-iv-portfolio-site/js/vendor/jquery.js"></script>
     <script src="../../web-iv-portfolio-site/js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script>
       $(document).foundation();
     </script>
