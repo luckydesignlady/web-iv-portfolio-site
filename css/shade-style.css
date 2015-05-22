@@ -7,6 +7,13 @@
 
 /*foundation overrides*/
 
+hr {
+  border: solid #A62C2B;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+  margin: 1.25rem 0 1.1875rem;
+}
 
 p {
 	font-family: Belgrano;
@@ -206,10 +213,10 @@ main {
 }
 
 .footer li img{
-		margin: 5px;
+		margin: 15px;
 }
 
-.footer h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{
 	color:#FDFDFD;
 	font-family: Belgrano;
 }
@@ -223,6 +230,10 @@ a {
   color: #D6D2AD;
 }
 
+.footer a:hover {
+	color: #A62C2B;
+}
+
 .footer .column, .columns {
   position: relative;
   padding-left: 0;
@@ -230,6 +241,10 @@ a {
   float: left;
 }
 
+.copyright {position:absolute;
+			bottom:0;
+			right:0;
+}
 /*Hover */
 
 @import "bourbon";
