@@ -44,6 +44,22 @@ span {
 #project.row {
 	max-width: 78rem;
 }
+
+.work-headline h1 {
+	font-weight:bold;
+	color:#741A1D;
+	font-size:320%;
+	}
+	
+.work-headline h2 {
+	font-weight:bold;
+	color:#741A1D;
+	}
+	
+.work-headline h2 span {
+	color:#010101;
+	font-size:75%;
+	}		
 	
 /*Navigation overrides*/
 nav a {
