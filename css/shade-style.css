@@ -17,6 +17,7 @@ hr {
 
 p {
 	font-family: Belgrano;
+	margin-top: 15px;
 }
 
 span {
@@ -29,11 +30,19 @@ span {
 
 /*index page headline css*/
 .work-headline {
-	margin-top:250px;
+	position:relative;
+	left: 0;
+	bottom: 0;
+	right: 15px;
 	}
 	
 #work.row {
   max-width: 78rem;
+    display: flex; 
+}
+
+#project.row {
+	max-width: 78rem;
 }
 	
 /*Navigation overrides*/
