@@ -32,7 +32,9 @@ span {
 	margin-top:250px;
 	}
 	
-	
+#work.row {
+  max-width: 78rem;
+}
 	
 /*Navigation overrides*/
 nav a {
@@ -50,7 +52,7 @@ nav a {
 .top-bar-section ul li > a {
   color: #FFFFFF;
   display: block;
-  font-family: Belgrano, Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+  font-family: Belgrano, Baskerville,"Times New Roman", serif;
   font-size: 0.8125rem;
   font-weight: normal;
   padding-left: 0.9375rem;
@@ -241,6 +243,10 @@ a {
   float: left;
 }
 
+#footer-logo {
+	margin: 25px;
+}
+
 .copyright {position:absolute;
 			bottom:0;
 			right:0;
@@ -336,3 +342,22 @@ a {
 }
 
 /*End Hover*/
+
+
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+.hero h1 {
+  font-size: 2 em;
+  margin: auto;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  color: #FDFDFD;
+  font-family: 'Megrim';
+}
