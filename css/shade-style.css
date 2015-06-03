@@ -57,7 +57,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 .button-group.even-2 li button, .button-group.even-2 li .button {
   width: 100%;
-  margin: 10px 100px 10px 100px;
+  margin: 10px 10px 10px 50px;
 }
 /*previous-next button set*/
 
