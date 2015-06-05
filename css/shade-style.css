@@ -59,6 +59,8 @@ button:hover, button:focus, .button:hover, .button:focus {
   width: 100%;
   margin: 10px 10px 10px 50px;
 }
+
+
 /*previous-next button set*/
 
 .button-group.even-2 li .button {
@@ -191,7 +193,7 @@ main {
 
 
 .hero h1 {
-  font-size: 4.1em;
+  font-size: 4.1rem;
   margin: auto;
   position: absolute;
   top: 120px;
@@ -205,7 +207,7 @@ main {
 }
 
 .hero p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin: auto;
   position: absolute;
   top: 220px;
