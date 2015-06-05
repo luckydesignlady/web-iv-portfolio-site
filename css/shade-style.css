@@ -247,7 +247,7 @@ main {
   -webkit-animation: scale-in 1.3s ease-out;
   -moz-animation: scale-in 1.3s ease-out;
   animation: scale-in 1.3s ease-out;
-  color: D6D2AD;
+  color: #D6D2AD;
 }
 
 @media all and (max-width: 768px) {
@@ -366,7 +366,7 @@ a:hover.box::before {
 @media only screen and (max-width: 640px) { 
 
 .hero h1 {
-  font-size: 2 em;
+  font-size: 2em;
   margin: auto;
   position: absolute;
   top: 120px;
